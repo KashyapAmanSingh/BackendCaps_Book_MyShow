@@ -20,14 +20,13 @@ const bookButton = () => {
           slot: timeSlotsData,
           seats: parsedSeatData,
         };
-        console.log(seatClickedData,"-------------------------------------------------- ----");
-
+ 
         return data;
      }
     
       
 
-  const url="http://localhost:8080"
+  const url="https://backend-book-my-show-ly4959ias-kashyapamansingh.vercel.app"
         const handlePost = () => {
              const data=fetchData()
             if (data) {
