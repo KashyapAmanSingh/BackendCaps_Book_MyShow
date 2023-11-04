@@ -1,9 +1,12 @@
-import { useEffect, useState } from "react";
+ import { useEffect, useState } from "react";
 import Loader from "./loader";
  
  
 import { Toast } from "./toast";
 import showToast from "./toast";
+import { FcClock, FcFilmReel } from "react-icons/fc";
+import { MdOutlineEventSeat } from "react-icons/md";
+
 
 
 export const LastBooking = () => {
@@ -11,17 +14,14 @@ export const LastBooking = () => {
     const [loader, setLoader] = useState(true);
 
     const seatTypes = ['A1', 'A2', 'A3', 'A4', 'A5', 'A6'];
- 
-    const { movie, seats, slot } = lastBooking;
-const url = "https://backend-book-my-show.vercel.app";  
-
+     const { movie, seats, slot } = lastBooking;
      const handleLastData = () => {
 
-        fetch(`${url}/api/booking`)
+        fetch('http://localhost:8080/api/booking')
             .then(response => response.json())
             .then(result => {
                 // Handle the response from the server here
-                setLastBooking(result && result.data)
+                setLastBooking(result && result?.data)
       setLoader(false)
              })
             .catch(error => {
@@ -48,16 +48,17 @@ const url = "https://backend-book-my-show.vercel.app";
                 className="bg-dark rounded-3 text-white mx-5 d-flex justify-content-center"
                 key={index}
               >
-                <p className="mx-3 my-3 fw-bold text-warning">{type}</p>
-                <p className="mx-3 my-3 bg-info px-4 py-1 rounded-3 fw-bold text-white">
-                  {seats && Object.keys(seats)[0] === type ? seats[Object.keys(seats)[0]] : 0}
+                    <MdOutlineEventSeat  size={25} className="bg-info text-black rounded-3 my-auto"/> 
+                    <p className="mx-3 my-3 fw-bold text-warning">{type}</p>
+                <p className="mx-3 my-3 bg-info px-4 py-1 rounded-3 fw-bold text-dark">
+             {seats && Object.keys(seats)[0] === type ? seats[Object.keys(seats)[0]] : 0}
                 </p>
               </div>
             ))
           )}
   
-          <h4 className="text-danger fw-bold my-1">Time Slot: {slot}</h4>
-          <h4 className="text-danger fw-bold my-1">Movie Name: {movie}</h4>
+          <h4 className="text-danger fw-bold my-1"><FcClock className="mx-1 my-0"/>Time Slot: {slot}</h4>
+          <h4 className="text-danger   text-center fw-bold my-1"><FcFilmReel className="mx-1 my-0"/>Movie Name: {movie}</h4>
         </div>
         <button className="d-none" onClick={() => showToast('success','Wow, this is too success !')}>Notify Success!</button>
       
