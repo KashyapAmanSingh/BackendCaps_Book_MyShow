@@ -21,6 +21,7 @@ const bookButton = () => {
           slot: timeSlotsData,
           seats: parsedSeatData,
         };
+ 
         return data;
      }
     
