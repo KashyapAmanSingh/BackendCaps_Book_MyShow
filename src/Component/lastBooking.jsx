@@ -42,6 +42,7 @@ export const LastBooking = () => {
         <br />
         <div className="mx-5">
           {loader ? (
+            
             <Loader />
           ) : (
             seatTypes.map((type, index) => (

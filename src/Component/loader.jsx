@@ -3,7 +3,7 @@ import {  CirclesWithBar } from  'react-loader-spinner'
 
 const Loader = () => {
   return (
-<div className='d-flex justify-content-center align-items-center'>
+<div className='d-flex justify-content-center  my-5 py-5  ' >
 
         
 
