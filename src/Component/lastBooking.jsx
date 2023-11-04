@@ -15,10 +15,10 @@ export const LastBooking = () => {
 
     const seatTypes = ['A1', 'A2', 'A3', 'A4', 'A5', 'A6'];
      const { movie, seats, slot } = lastBooking;
- const url="https://backend-book-my-show.vercel.app/";
-     const handleLastData = () => {
+const url = "https://backend-book-my-show.vercel.app"; // Make sure to use double quotes for the URL
 
-        fetch(`${url}/api/booking`)
+     const handleLastData = () => {
+    fetch(`${url}/api/booking`)
             .then(response => response.json())
             .then(result => {
                 // Handle the response from the server here
