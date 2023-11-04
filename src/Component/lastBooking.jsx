@@ -15,20 +15,17 @@ export const LastBooking = () => {
 
     const seatTypes = ['A1', 'A2', 'A3', 'A4', 'A5', 'A6'];
      const { movie, seats, slot } = lastBooking;
-     const url="https://backend-book-my-show.vercel.app""
+     const url="https://backend-book-my-show.vercel.app"
      const handleLastData = () => {
     
         fetch(`${url}/api/booking`)
             .then(response => response.json())
             .then(result => {
-                // Handle the response from the server here
-                setLastBooking(result && result?.data)
-      setLoader(false)
+                 setLastBooking(result && result?.data)    
+                  setLoader(false)
              })
             .catch(error => {
-                // Handle any errors that occurred during the fetch
-                console.error('Error:', error);
-            });
+                 console.error('Error:', error);            });
     }
  useEffect(()=>{
 
