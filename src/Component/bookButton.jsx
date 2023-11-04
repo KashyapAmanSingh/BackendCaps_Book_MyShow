@@ -21,19 +21,17 @@ const bookButton = () => {
           slot: timeSlotsData,
           seats: parsedSeatData,
         };
-        console.log(seatClickedData,"-------------------------------------------------- ----");
-
         return data;
      }
     
       
 
-  const url="http://localhost:8080"
+  const url"https://backend-book-my-show.vercel.app";
         const handlePost = () => {
              const data=fetchData()
             if (data) {
          fetch(`${url}/api/booking`, {
-                // fetch(`/api/booking`, {
+               
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
