@@ -9,8 +9,8 @@ export  default function showToast(type, message = '🦄 Wow, it\'s so easy!') {
   const selectedToast = toastMethods[type] || toast;
   if (selectedToast) {
     selectedToast(message, {
-      position: "bottom-left",
-      autoClose: 5000,
+      position: "top-left",
+      autoClose: 1500,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -24,11 +24,10 @@ export  default function showToast(type, message = '🦄 Wow, it\'s so easy!') {
 export const Toast = () => {
   return (
     <div>
-      {/* <button onClick={() => showToast('warn')}>Notify Warning!</button>
-      <button onClick={() => showToast('success','Wow, this is too success !')}>Notify Success!</button> */}
+ 
       <ToastContainer
         position="bottom-left"
-        autoClose={5000}
+        autoClose={1000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick

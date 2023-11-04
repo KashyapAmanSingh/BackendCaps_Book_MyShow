@@ -1,4 +1,5 @@
 import showToast, { Toast } from "./toast";
+import { FcApproval } from 'react-icons/fc';
 
 
 const bookButton = () => {
@@ -63,7 +64,7 @@ const bookButton = () => {
         className="btn btn-danger px-4 mx-5 mt-2 mb-5"
         onClick={handlePost} 
       >
-        Book Now!
+       <FcApproval size={25}/> Book Now!
       </button> 
  
   

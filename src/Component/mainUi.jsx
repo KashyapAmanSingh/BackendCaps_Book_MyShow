@@ -1,4 +1,5 @@
- import BookButton from "./bookButton";
+ import { FcFilm } from "react-icons/fc";
+import BookButton from "./bookButton";
 import { LastBooking } from "./lastBooking";
 import MovieSeat from "./movieSeat";
 import MovieSelect from "./movieSelect";
@@ -9,7 +10,7 @@ const MainUi = () => {
 
     return (
         <div>
-            <h3 className='text-success bg-white my-3 mx-5 py-auto px-4  text-start fw-bolder'>ShowTime - Your Ultimate Entertainment Hub</h3>
+            <h3 className='text-success bg-white my-3 mx-5 py-auto px-4  text-start fw-bolder'><FcFilm className="mb-2"  />ShowTime - Your Ultimate Entertainment Hub</h3>
             <div className="container">
                 {/* <!-- First Row - Movie Selection --> */}
                 <div className="row">
