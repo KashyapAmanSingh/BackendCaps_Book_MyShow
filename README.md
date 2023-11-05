@@ -62,6 +62,8 @@ After clicking "Book Now," you will receive a successful booking message, and yo
 
  
 ## Tech Stack
-
 - Frontend: React Vite, Bootstrap, React Toast, React-loader
+
+## Team Members
+- Individually
  
