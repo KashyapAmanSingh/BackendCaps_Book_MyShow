@@ -1,5 +1,6 @@
  
-import {  CirclesWithBar } from  'react-loader-spinner'
+ // Import required modules
+ import {  CirclesWithBar } from  'react-loader-spinner'
 
 const Loader = () => {
   return (

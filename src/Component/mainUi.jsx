@@ -1,3 +1,4 @@
+ // Import required modules
  import { FcFilm } from "react-icons/fc";
 import BookButton from "./bookButton";
 import { LastBooking } from "./lastBooking";

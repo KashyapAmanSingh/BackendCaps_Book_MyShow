@@ -1,12 +1,12 @@
-// import { Toast } from "./toast";
-import showToast from "./toast";
+ import showToast from "./toast";
 import { AiOutlineClockCircle } from 'react-icons/ai';
+
+//This component return Ui with data of the different movie timing 
 const MovieTime = () => {
-    const timeSlots = ['10:00 AM', '01:00 PM', '03:00 PM', '08:00 PM', '10:00 PM'];
+    const timeSlots = ['10:00 AM', '01:00 PM', '03:00 PM', '08:00 PM', '10:00 PM'];    //aray that store all these times
     const handleMovieTime= (index) => {
         showToast('',`Selected ${timeSlots[index]}!`);
-        // <Toast/>
-        sessionStorage.setItem('timeSlotsData', timeSlots[index]);
+         sessionStorage.setItem('timeSlotsData', timeSlots[index]);
    };
   return (
     <div>
