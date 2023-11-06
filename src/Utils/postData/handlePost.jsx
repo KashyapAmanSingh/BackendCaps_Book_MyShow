@@ -4,7 +4,7 @@ import { fetchData } from "./fetchData";
 // Define the function for posting data to the server
 // Define the function for posting data to the server
 export const postBookingData = async () => {
-    const url = "https://backend-book-my-show.vercel.app";
+    const url =  import.meta.env.VITE_Backend_Deployment_URL;
     const data = fetchData() ; // You should define the 'fetchData' function
 
     if (data) {

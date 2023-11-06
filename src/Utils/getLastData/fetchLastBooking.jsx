@@ -4,9 +4,9 @@ export const FetchLastBooking = () => {
     const [lastBooking, setLastBooking] = useState({});
     const [loader, setLoader] = useState(true);
 
-    const url = "https://backend-book-my-show.vercel.app";
-
-    useEffect(() => {
+    const url =  import.meta.env.VITE_Backend_Deployment_URL;
+   
+     useEffect(() => {
         const fetchData = async () => {
             try {
                 const response = await fetch(`${url}/api/booking`);
