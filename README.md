@@ -29,7 +29,8 @@ This will start the frontend application using Vite and enable you to access it 
 
 ### Base URL
 
-- [https://vercel.com/kashyapamansingh/backend-book-my-show](https://vercel.com/kashyapamansingh/backend-book-my-show)
+- https://backend-caps-book-my-show-o9mod85kl-kashyapamansingh.vercel.app 
+
 
 #### Booking
 
@@ -43,14 +44,14 @@ This will start the frontend application using Vite and enable you to access it 
 
 Here are the links to the deployed project:
 
-- For Frontend: [https://backend-caps-book-my-show.vercel.app/](https://backend-caps-book-my-show.vercel.app/)
-- For Backend: [https://backend-book-my-show.vercel.app/api/bookings](https://backend-book-my-show.vercel.app/api/bookings)
+- For Frontend:   https://backend-caps-book-my-show-o9mod85kl-kashyapamansingh.vercel.app/
+- For Backend:  https://backend-book-my-show-kdfrg2hcm-kashyapamansingh.vercel.app/
 
 By clicking the links above, you can access and explore the project.
 
 ## How to Use
+- Click on the link: https://backend-caps-book-my-show-o9mod85kl-kashyapamansingh.vercel.app
 
-- Click on the link: [https://backend-book-my-show.vercel.app/api/bookings](https://backend-book-my-show.vercel.app/api/bookings)
 - Select the movie you would like to watch.
 - Select a timeslot.
 - Select your preferred seats.
