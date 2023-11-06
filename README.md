@@ -9,17 +9,17 @@ This project is a "Book My Show" application that allows users to discover and b
 To run the frontend part of the application, follow these steps:
 
 1. Clone the repository to your local machine.
-git clone https://github.com/KashyapAmanSingh/BackendCaps_Book_MyShow.git
+- git clone https://github.com/KashyapAmanSingh/BackendCaps_Book_MyShow.git
 
 2. Navigate to the frontend directory.
-cd front_Show
+- cd front_Show
 
 3. Install the required dependencies.
-npm install
+- npm install
 
 
 4. Start the development server.
-npm run dev
+- npm run dev
 
 
  
