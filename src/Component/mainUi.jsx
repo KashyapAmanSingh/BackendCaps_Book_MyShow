@@ -2,11 +2,10 @@
  import { FcFilm } from "react-icons/fc";
 import BookButton from "./bookButton";
 import { LastBooking } from "./lastBooking";
-import MovieSeat from "./movieSeat";
-import MovieSelect from "./movieSelect";
-import MovieTime from "./movieTime";
-
-
+import MovieSelect from "./Sub_Component/movieSelect";
+import MovieTime from "./Sub_Component/movieTime";
+import MovieSeat from "./Sub_Component/movieSeat";
+ 
 const MainUi = () => {
 
     return (

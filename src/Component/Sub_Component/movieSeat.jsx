@@ -1,7 +1,7 @@
 // Import required modules
 
 import { useState } from "react";
-import showToast from "./toast";
+import showToast from "../toast";
 
 
 // Component to select a movie seat and show a toast notification

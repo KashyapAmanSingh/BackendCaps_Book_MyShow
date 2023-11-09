@@ -1,4 +1,4 @@
- import showToast from "./toast";
+ import showToast from "../toast";
 import { AiOutlineClockCircle } from 'react-icons/ai';
 
 //This component return Ui with data of the different movie timing 
