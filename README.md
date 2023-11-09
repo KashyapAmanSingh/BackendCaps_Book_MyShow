@@ -29,7 +29,7 @@ This will start the frontend application using Vite and enable you to access it 
 
 ### Base URL
 
-- https://backend-caps-book-my-show-o9mod85kl-kashyapamansingh.vercel.app 
+-  https://backend-caps-book-my-show-qo2wyr2b6-kashyapamansingh.vercel.app/   
 
 
 #### Booking
@@ -44,8 +44,8 @@ This will start the frontend application using Vite and enable you to access it 
 
 Here are the links to the deployed project:
 
-- For Frontend:   https://backend-caps-book-my-show-o9mod85kl-kashyapamansingh.vercel.app/
-- For Backend:  https://backend-book-my-show-kdfrg2hcm-kashyapamansingh.vercel.app/
+- For Frontend: https://backend-caps-book-my-show-qo2wyr2b6-kashyapamansingh.vercel.app/   
+- For Backend:  https://backend-book-my-show-pvlja8xe4-kashyapamansingh.vercel.app/
 
 By clicking the links above, you can access and explore the project.
 
@@ -59,12 +59,16 @@ By clicking the links above, you can access and explore the project.
 
 After clicking "Book Now," you will receive a successful booking message, and your last booking details will be displayed on the screen under the "Last Booking Details" section.
 
-![Frontend UI](https://github.com/KashyapAmanSingh/BackendCaps_Book_MyShow/assets/119684617/3463af4b-4e58-4c3c-9a3e-ee8864f6e12a)
+ 
+![Frontend UI](https://github.com/KashyapAmanSingh/BackendCaps_Book_MyShow/assets/119684617/2802814d-4d8c-42bd-922f-32abb21e4ba2)
 
  
 ## Tech Stack
-- Frontend: React Vite, Bootstrap, React Toast, React-loader
+- React Vite: The core framework for building a dynamic and efficient web application.
+- Bootstrap: A responsive and polished design framework for creating visually appealing user interfaces.
+- React Toast: A component for displaying notifications or toasts in the application, providing user feedback.
+- React-loader: A component to display loading indicators or spinners, enhancing user experience during data retrieval or processing.
 
 ## Team Members
-- Individually
+- worked Individually
  
