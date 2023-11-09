@@ -25,6 +25,42 @@ To run the frontend part of the application, follow these steps:
  
 This will start the frontend application using Vite and enable you to access it at http://localhost:3000. Make sure the backend server is running as well. For the backend, please use this URL: https://github.com/KashyapAmanSingh/BackendCaps_Book_MyShow.git
 
+## Application Code Folder Structure
+
+```
+├───public
+│       vite.svg
+│
+└───src
+    │   App.css
+    │   App.jsx
+    │   index.css
+    │   main.jsx
+    │
+    ├───assets
+    │       react.svg
+    │
+    ├───Component
+    │   │   bookButton.jsx
+    │   │   lastBooking.jsx
+    │   │   loader.jsx
+    │   │   mainUi.jsx
+    │   │   toast.jsx
+    │   │
+    │   └───Sub_Component
+    │           movieSeat.jsx
+    │           movieSelect.jsx
+    │           movieTime.jsx
+    │
+    └───Utils
+        ├───getLastData
+        │       fetchLastBooking.jsx
+        │
+        └───postData
+                fetchData.jsx
+                handlePost.jsx
+
+```
 ## API Reference
 
 ### Base URL
